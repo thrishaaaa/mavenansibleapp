@@ -5,8 +5,8 @@
   tasks:
     - name: Copy WAR file to Tomcat
       copy:
-        src: "/var/snap/jenkins/4829/workspace/MavenAnsible-CICD/target/MavenAnsibleWebApp.war"
-        dest: "/opt/tomcat/webapps/MavenAnsibleWebApp.war"
+        src: "/var/snap/jenkins/4874/workspace/ansibleapp/target/mavenansibleapp.war"
+        dest: "/opt/tomcat/webapps/mavenansibleapp.war"
         remote_src: no
 
     - name: Restart Tomcat
